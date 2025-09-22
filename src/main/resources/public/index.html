@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: "Segoe UI", Arial, sans-serif;
+            background: linear-gradient(135deg, #f3e5f5, #e1f5fe);
+            color: #333;
+        }
+        .container {
+            max-width: 900px;
+            margin: 50px auto;
+            background: #fff;
+            padding: 40px;
+            border-radius: 20px;
+            box-shadow: 0 10px 22px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+        h1 {
+            color: #7b1fa2;
+            margin-bottom: 25px;
+        }
+        .member {
+            margin: 20px 0;
+        }
+        .member img {
+            width: 140px;
+            height: 140px;
+            object-fit: cover;
+            border-radius: 50%;
+            border: 4px solid #7b1fa2;
+            box-shadow: 0 6px 14px rgba(0,0,0,0.15);
+            transition: transform 0.3s;
+        }
+        .member img:hover {
+            transform: scale(1.08);
+        }
+        p {
+            font-size: 18px;
+            line-height: 1.6;
+        }
+        strong {
+            color: #0288d1;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <h1>Наша команда</h1>
+    <div class="member">
+        <img src="pig.jpg">
+        <p>
+            В команді наразі тільки я — <strong>Владислав</strong>.
+            Cтудент, що навчається розробці на <strong>Java Spring</strong>
+        </p>
+    </div>
+    <p>
+        Цей курс дає мені можливість глибше зрозуміти принципи
+        побудови <strong>backend-додатків</strong> та розширити власний досвід у сфері програмування
+    </p>
+</div>
+</body>
+</html>
